@@ -3,12 +3,32 @@
     <title>シロップ研究部</title>
     <link href="https://shiroppu-kenkyu-bu.github.io/feed.xml" rel="self" />
     <link href="https://shiroppu-kenkyu-bu.github.io" />
-    <updated>2022-03-06T22:27:55+09:00</updated>
+    <updated>2022-03-06T22:46:30+09:00</updated>
     <author>
         <name>シロップジュース</name>
     </author>
     <id>https://shiroppu-kenkyu-bu.github.io</id>
 
+    <entry>
+        <title>シロップジュース及びシロップ研究部について</title>
+        <author>
+            <name>シロップジュース</name>
+        </author>
+        <link href="https://shiroppu-kenkyu-bu.github.io/sirotupuziyusuji-bisirotupuyan-jiu-bu-nituite.html"/>
+        <id>https://shiroppu-kenkyu-bu.github.io/sirotupuziyusuji-bisirotupuyan-jiu-bu-nituite.html</id>
+
+        <updated>2022-03-06T22:46:30+09:00</updated>
+            <summary>
+                <![CDATA[
+                    シロップジュースは、活動用のサークル名のようなもので、シロップ研究部は、シロップジュースで出すほどでない実験成果物のようなものをリリースするためにサイト・チャンネル名です。
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>シロップジュースは、活動用のサークル名のようなもので、シロップ研究部は、シロップジュースで出すほどでない実験成果物のようなものをリリースするためにサイト・チャンネル名です。</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>各種リンク集</title>
         <author>
@@ -39,10 +59,10 @@
         <link href="https://shiroppu-kenkyu-bu.github.io/3dkiyarakutajia-xiang-abatacao-zuo-guan-lian-noji-shu-bei-wang-lu.html"/>
         <id>https://shiroppu-kenkyu-bu.github.io/3dkiyarakutajia-xiang-abatacao-zuo-guan-lian-noji-shu-bei-wang-lu.html</id>
 
-        <updated>2022-03-06T22:03:50+09:00</updated>
+        <updated>2022-03-06T22:44:37+09:00</updated>
             <summary>
                 <![CDATA[
-                     VTuberみたいな動画を作ろうと思って軽く調べ始めましたが、非常に多くの技術者の方が、それぞれソフトウェアを開発し、中には共通規格などを作って他のソフトとの連携ができるものもあり、しかもその規格も様々と、初見ではどう頑張っても把握しきれなかったので、備忘録も兼ねて手当たり次第に記載していきます。技術力が伴っていない自称技術者なので間違った記載等あると思いますが、そのときは、Twitter(@mizunoki_kaede)までご連絡ください。自分の開発したやつが載ってない！という開発者の方、すみません、私が見落としていますので、よければご連絡ください。（ただし現時点ではまだ把握しているものも全ては書き終えていません。）掲載しないでほしいという方もいらっしゃいましたらご連絡ください。 各種フェイストラッカーから送信されるモーションデータをVMC Protocol形式に変換するツールです。 Virtual Motion Captureとは開発者が違いますが、Virtual Motion Capture含む多くのソフトが対応しています。内部的にはOSCを使用。 iFacialMocapが他のソフトにモーションを送る際に使用している通信方式ですが、同じ通信方式で他のソフトもモーションを送信している例があります。 仕様：https://www.ifacialmocap.com/for-developer/%E6%97%A5%E6%9C%AC%E8%AA%9E/ VTube Studioがスマホ・PC間でモーションを送る際に使用している通信方式ですが、同じ通信方式で他のソフトもモーションを送信している例があります。 対応ソフト VTube Studio（送受信）MeowFace（送信ですが、私の手元では動作が確認できませんでした。） 
+                     VTuberみたいな動画を作ろうと思って軽く調べ始めましたが、非常に多くの技術者の方が、それぞれソフトウェアを開発し、中には共通規格などを作って他のソフトとの連携ができるものもあり、しかもその規格も様々と、初見ではどう頑張っても把握しきれなかったので、備忘録も兼ねて手当たり次第に記載していきます。技術力が伴っていない自称技術者なので間違った記載等あると思いますが、そのときは、Twitter(@mizunoki_kaede)までご連絡ください。自分の開発したやつが載ってない！という開発者の方、すみません、私が見落としていますので、よければご連絡ください。（ただし現時点ではまだ把握しているものも全ては書き終えていません。）掲載しないでほしいという方もいらっしゃいましたらご連絡ください。 対応モデル[Live2D/VRM/FBX] 対応OS[Windows/iOS] フェイストラッカーの中ではかなり有名だと思います。無料で使用できますが、一定以上の収益が出る場合や、ロゴマークを外したい場合はサブスク課金が必要です。Facerigは、Animazeが配信される以前に買い切りソフトとして販売されていましたが、Animazeの配信開始により販売終了となりました、FacerigからAnimazeにかけてかなりトラッキング精度が上がりましたが、Facerigのほうが買い切りで使いやすいなといった印象です。 対応モデル[VRM] 対応OS[Windows/MacOS] VRM形式のモデルが作れるツールです。とても有能で、着せかえテクスチャのようなものもBoothに大量に有償無償問わず配布されています。 各種フェイストラッカーから送信されるモーションデータをVMC Protocol形式に変換するツールです。 Virtual Motion Captureとは開発者が違いますが、Virtual Motion Capture含む多くのソフトが対応しています。内部的にはOSCを使用。 iFacialMocapが他のソフトにモーションを送る際に使用している通信方式ですが、同じ通信方式で他のソフトもモーションを送信している例があります。 仕様：https://www.ifacialmocap.com/for-developer/%E6%97%A5%E6%9C%AC%E8%AA%9E/ VTube Studioがスマホ・PC間でモーションを送る際に使用している通信方式ですが、同じ通信方式で他のソフトもモーションを送信している例があります。 対応ソフト VTube Studio（送受信）MeowFace（送信ですが、私の手元では動作が確認できませんでした。） 
                 ]]>
             </summary>
         <content type="html">
@@ -53,8 +73,36 @@
   </p>
 
     <h2>
+      フェイストラッキング
+    </h2>
+
+    <h3 id="animazefacerig">
+      Animaze（Facerig）
+    </h3>
+
+  <p>
+    対応モデル[Live2D/VRM/FBX]<br>対応OS[Windows/iOS]<br>フェイストラッカーの中ではかなり有名だと思います。無料で使用できますが、一定以上の収益が出る場合や、ロゴマークを外したい場合はサブスク課金が必要です。Facerigは、Animazeが配信される以前に買い切りソフトとして販売されていましたが、Animazeの配信開始により販売終了となりました、FacerigからAnimazeにかけてかなりトラッキング精度が上がりましたが、Facerigのほうが買い切りで使いやすいなといった印象です。
+  </p>
+
+    <h2>
+      フルトラッキング
+    </h2>
+
+  <p>
+    
+  </p>
+
+    <h2>
       その他便利ツールなど
     </h2>
+
+    <h3 id="vroid-studio">
+      VRoid Studio
+    </h3>
+
+  <p>
+    対応モデル[VRM]<br>対応OS[Windows/MacOS]<br>VRM形式のモデルが作れるツールです。とても有能で、着せかえテクスチャのようなものもBoothに大量に有償無償問わず配布されています。<br>
+  </p>
 
     <h3 id="facemocap2vmc">
       FaceMocap2VMC
