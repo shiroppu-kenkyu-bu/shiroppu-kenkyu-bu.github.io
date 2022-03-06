@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://shiroppu-kenkyu-bu.github.io/sitemap.xml

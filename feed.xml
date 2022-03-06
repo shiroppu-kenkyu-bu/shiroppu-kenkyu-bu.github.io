@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>シロップ研究部</title>
+    <link href="https://shiroppu-kenkyu-bu.github.io/feed.xml" rel="self" />
+    <link href="https://shiroppu-kenkyu-bu.github.io" />
+    <updated>2022-03-06T22:03:50+09:00</updated>
+    <author>
+        <name>シロップジュース</name>
+    </author>
+    <id>https://shiroppu-kenkyu-bu.github.io</id>
+
+    <entry>
+        <title>3Dキャラクター（仮想アバター）操作関連の技術備忘録</title>
+        <author>
+            <name>シロップジュース</name>
+        </author>
+        <link href="https://shiroppu-kenkyu-bu.github.io/3dkiyarakutajia-xiang-abatacao-zuo-guan-lian-noji-shu-bei-wang-lu.html"/>
+        <id>https://shiroppu-kenkyu-bu.github.io/3dkiyarakutajia-xiang-abatacao-zuo-guan-lian-noji-shu-bei-wang-lu.html</id>
+
+        <updated>2022-03-06T22:03:50+09:00</updated>
+            <summary>
+                <![CDATA[
+                     VTuberみたいな動画を作ろうと思って軽く調べ始めましたが、非常に多くの技術者の方が、それぞれソフトウェアを開発し、中には共通規格などを作って他のソフトとの連携ができるものもあり、しかもその規格も様々と、初見ではどう頑張っても把握しきれなかったので、備忘録も兼ねて手当たり次第に記載していきます。技術力が伴っていない自称技術者なので間違った記載等あると思いますが、そのときは、Twitter(@mizunoki_kaede)までご連絡ください。自分の開発したやつが載ってない！という開発者の方、すみません、私が見落としていますので、よければご連絡ください。（ただし現時点ではまだ把握しているものも全ては書き終えていません。）掲載しないでほしいという方もいらっしゃいましたらご連絡ください。 各種フェイストラッカーから送信されるモーションデータをVMC Protocol形式に変換するツールです。 Virtual Motion Captureとは開発者が違いますが、Virtual Motion Capture含む多くのソフトが対応しています。内部的にはOSCを使用。 iFacialMocapが他のソフトにモーションを送る際に使用している通信方式ですが、同じ通信方式で他のソフトもモーションを送信している例があります。 仕様：https://www.ifacialmocap.com/for-developer/%E6%97%A5%E6%9C%AC%E8%AA%9E/ VTube Studioがスマホ・PC間でモーションを送る際に使用している通信方式ですが、同じ通信方式で他のソフトもモーションを送信している例があります。 対応ソフト VTube Studio（送受信）MeowFace（送信ですが、私の手元では動作が確認できませんでした。） 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    VTuberみたいな動画を作ろうと思って軽く調べ始めましたが、非常に多くの技術者の方が、それぞれソフトウェアを開発し、中には共通規格などを作って他のソフトとの連携ができるものもあり、しかもその規格も様々と、初見ではどう頑張っても把握しきれなかったので、備忘録も兼ねて手当たり次第に記載していきます。技術力が伴っていない自称技術者なので間違った記載等あると思いますが、そのときは、Twitter(@mizunoki_kaede)までご連絡ください。自分の開発したやつが載ってない！という開発者の方、すみません、私が見落としていますので、よければご連絡ください。（ただし現時点ではまだ把握しているものも全ては書き終えていません。）掲載しないでほしいという方もいらっしゃいましたらご連絡ください。
+  </p>
+
+    <h2>
+      その他便利ツールなど
+    </h2>
+
+    <h3 id="facemocap2vmc">
+      FaceMocap2VMC
+    </h3>
+
+  <p>
+    各種フェイストラッカーから送信されるモーションデータをVMC Protocol形式に変換するツールです。
+  </p>
+
+    <h2>
+      プロトコル・通信規格
+    </h2>
+
+    <h3 id="vmc-protocol">
+      VMC Protocol
+    </h3>
+
+    <h4>
+      概要
+    </h4>
+
+  <p>
+    Virtual Motion Captureとは開発者が違いますが、Virtual Motion Capture含む多くのソフトが対応しています。内部的にはOSCを使用。
+  </p>
+
+    <h4>
+      対応ソフト
+    </h4>
+
+  <ul>
+    <li>Virtual Motion Capture（送受信）</li><li>VSeeFace（送受信）</li><li>ThreeDPoseTracker（送信）</li>
+  </ul>
+
+    <h3 id="ifacialmocap">
+      iFacialMocapプロトコル（仮称）
+    </h3>
+
+    <h4>
+      概要
+    </h4>
+
+  <p>
+    iFacialMocapが他のソフトにモーションを送る際に使用している通信方式ですが、同じ通信方式で他のソフトもモーションを送信している例があります。<br>仕様：<a href="https://www.ifacialmocap.com/for-developer/%E6%97%A5%E6%9C%AC%E8%AA%9E/" target="_blank" rel="nofollow noopener">https://www.ifacialmocap.com/for-developer/%E6%97%A5%E6%9C%AC%E8%AA%9E/</a><br>
+  </p>
+
+    <h4>
+      対応ソフト
+    </h4>
+
+  <ul>
+    <li>iFacialMocap（送信）</li><li>MeowFace（送信）</li><li>VSeeFace（受信）</li>
+  </ul>
+
+    <h3 id="vtube-studio">
+      VTube Studioプロトコル（仮称）
+    </h3>
+
+    <h4>
+      概要
+    </h4>
+
+  <p>
+    VTube Studioがスマホ・PC間でモーションを送る際に使用している通信方式ですが、同じ通信方式で他のソフトもモーションを送信している例があります。
+  </p>
+
+    <h4>
+      対応ソフト
+    </h4>
+
+  <ul>
+    <li>VTube Studio（送受信）</li><li>MeowFace（送信ですが、私の手元では動作が確認できませんでした。）</li>
+  </ul>
+            ]]>
+        </content>
+    </entry>
+</feed>
